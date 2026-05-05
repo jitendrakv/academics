@@ -43,3 +43,43 @@ h2 {
 
 ul { padding-left: 20px; }
 li { margin-bottom: 10px; }
+
+/* Add to your existing style.css */
+.pub-item {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.year {
+    font-weight: bold;
+    color: #0077cc;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.pub-item .title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #222;
+}
+
+.authors {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.journal, .venue {
+    margin: 0;
+    color: #777;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+nav a.active {
+    color: #222;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 2px;
+}
